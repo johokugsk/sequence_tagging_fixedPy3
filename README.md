@@ -1,3 +1,23 @@
+# This project is applying of existing program to Japanese by using Python3.x and japanese pre-trained word vector.
+
+This program was used for the experiment of the paper of LOUHI2018
+
+please use the [pre-trained vector](http://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/)
+
+This word dimension size is 200 so we modified data/config.py only.
+
+```
+word_dim = 200
+```
+
+# This orignal project is made by Guillaume Genthial
+
+Check the [GitHub repository](https://github.com/guillaumegenthial/sequence_tagging)
+
+followed statement is copy from the repository.
+
+=================================================== 
+
 # Named Entity Recognition with Tensorflow
 
 This repo implements a NER model using Tensorflow (LSTM + CRF + chars embeddings).
